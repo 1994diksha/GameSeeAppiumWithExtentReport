@@ -1,0 +1,43 @@
+# Cron Schedules have been converted using UTC Time Zone and may need to be updated for your location
+trigger:
+  branches:
+    include:
+    - refs/heads/master
+schedules:
+- cron: 3 0 * * *
+  branches:
+    include:
+    - refs/heads/master
+  always: true
+jobs:
+- job: Job_1
+  displayName: Run Agent
+  pool:
+    vmImage: vs2017-win2016
+  steps:
+  - checkout: self
+  - task: NodeTool@0
+    displayName: Use Node 12.18.2
+    continueOnError: True
+    inputs:
+      versionSpec: 12.18.2
+  - task: CmdLine@2
+    displayName: Install newman and Run Tests
+    continueOnError: True
+    inputs:
+      script: npm install -g newman
+      workingDirectory: GameSee-Collections
+  - task: CmdLine@2
+    displayName: 'Run '
+    continueOnError: True
+    inputs:
+      script: newman run "GameSee-Collections.postman_collection3.json"  --reporters cli,junit --reporter-junit-export Results\GameResult.xml
+      workingDirectory: GameSee-Collections
+  - task: PublishTestResults@2
+    displayName: 'Publish Test Results '
+    continueOnError: True
+    inputs:
+      testResultsFiles: '$(System.DefaultWorkingDirectory)\Results\*.xml '
+      searchFolder: ''
+      testRunTitle: GameSee Results
+...
