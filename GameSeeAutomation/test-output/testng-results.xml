@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-10T15:55:49Z" name="Suite" finished-at="2021-03-10T15:59:20Z" duration-ms="210967">
+    <groups>
+    </groups>
+    <test started-at="2021-03-10T15:55:49Z" name="Test" finished-at="2021-03-10T15:59:20Z" duration-ms="210967">
+      <class name="GameSeeTest.GameSeeRegisterTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:25:48Z" name="setUp" finished-at="2021-03-10T21:25:49Z" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp1()[pri:0, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:25:49Z" name="setUp1" finished-at="2021-03-10T21:25:56Z" duration-ms="7278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp1 -->
+        <test-method signature="GameseeRegisterationWithGmail()[pri:1, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:25:56Z" name="GameseeRegisterationWithGmail" finished-at="2021-03-10T21:27:05Z" duration-ms="69367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GameseeRegisterationWithGmail -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:27:05Z" name="getResult" finished-at="2021-03-10T21:27:05Z" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GameseeRegisterationWithGmail status=SUCCESS method=GameSeeRegisterTest.GameseeRegisterationWithGmail()[pri:1, instance:GameSeeTest.GameSeeRegisterTest@495a9305] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CompleteProfileScreen()[pri:2, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:27:05Z" name="CompleteProfileScreen" finished-at="2021-03-10T21:27:45Z" duration-ms="39512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompleteProfileScreen -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:27:45Z" name="getResult" finished-at="2021-03-10T21:27:45Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CompleteProfileScreen status=SUCCESS method=GameSeeRegisterTest.CompleteProfileScreen()[pri:2, instance:GameSeeTest.GameSeeRegisterTest@495a9305] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="RegisterWithPhoneNumber()[pri:3, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:27:45Z" name="RegisterWithPhoneNumber" finished-at="2021-03-10T21:28:02Z" duration-ms="17418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithPhoneNumber -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:28:02Z" name="getResult" finished-at="2021-03-10T21:28:02Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterWithPhoneNumber status=SUCCESS method=GameSeeRegisterTest.RegisterWithPhoneNumber()[pri:3, instance:GameSeeTest.GameSeeRegisterTest@495a9305] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="PhoneCompleteProfileOptionCase()[pri:4, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:28:02Z" name="PhoneCompleteProfileOptionCase" finished-at="2021-03-10T21:29:20Z" duration-ms="77357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PhoneCompleteProfileOptionCase -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:29:20Z" name="getResult" finished-at="2021-03-10T21:29:20Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PhoneCompleteProfileOptionCase status=SUCCESS method=GameSeeRegisterTest.PhoneCompleteProfileOptionCase()[pri:4, instance:GameSeeTest.GameSeeRegisterTest@495a9305] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:GameSeeTest.GameSeeRegisterTest@495a9305]" started-at="2021-03-10T21:29:20Z" name="tearDown" finished-at="2021-03-10T21:29:20Z" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GameSeeTest.GameSeeRegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
